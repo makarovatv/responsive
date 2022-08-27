@@ -1,0 +1,172 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --content-font: "Be Vietnam Pro", sans-serif;
+  --box-shadow: 0 3px 3px rgba(105, 127, 240, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 100%;
+  font-family: var(--content-font);
+}
+
+.hero {
+  background-color: #f5f2fe;
+  padding: 90px 0;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 90px;
+  font-family: "Stoke", serif;
+}
+
+h2 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 54px;
+}
+
+.hero h3 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 12px 25px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.nav-item a:hover {
+  color: var(--primary-color);
+}
+
+.logo {
+  font-size: 28px;
+  font-family: "Stoke", serif;
+  color: var(--primary-color);
+}
+
+.container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contact-link {
+  font-family: "Stoke", serif;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  color: var(--primary-color);
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+  font-size: 16px;
+}
+.about-section {
+  margin-top: 90px;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.about-section h3 {
+  font-size: 16px;
+}
+
+.contant-container {
+  margin-top: 90px;
+}
+
+.contant-container h3 {
+  line-height: 1.5;
+  font-size: 24px;
+  margin: 0;
+}
+.contant-container p {
+  font-size: 14px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
+footer .email-link.hover {
+  color: var(--primary-color);
+}
+footer .social-links a {
+  margin: 0 16px;
+  color: var(--primary-color);
+  font-size: 18px;
+  text-decoration: none;
+}
+footer .navigation-links {
+  margin-top: 40px;
+  display: flex;
+}
+
+.CTA {
+  margin-top: 60px;
+}
+
+footer .contact-box {
+  margin-top: 40px;
+  background-color: var(--secondary-color);
+  padding: 30px;
+  border-radius: 4px;
+}
+footer {
+  margin-bottom: 30px;
+}
